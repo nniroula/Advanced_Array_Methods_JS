@@ -31,3 +31,9 @@ const funcArray = [add, subtract, multiply];
 // To call multiply function, do this funcArray[index]() and in parenthesis pass in the arguments
 funcArray[2](2, 4);
 //console.log(funcArray[2](2, 4)); // to console out the output
+
+/* Callback function as an argument. Eg in setTimeout function*/
+
+setTimeout(add, 5000); // setTimeOut takes 2 arguments- a function adn time in ms
+
+
